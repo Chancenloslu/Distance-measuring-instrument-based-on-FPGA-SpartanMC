@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jc4:configuration xmlns:jc4="http://www.rs.tu-darmstadt.de/ns/spartanmc/configuration/jc4" jconfig-version="libJConfig-4.0-alpha0;libDevXml-4.0" name="Configuration">
+    <jc4:pins>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#CLOCK_SMACLK_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#CLOCK_SMACLK_P"/>
+        <jc4:pin ioStd="LVDS_25" termination="none" inverted="false" direction="input" name="#CLOCK_SYSCLK_N"/>
+        <jc4:pin ioStd="LVDS_25" termination="none" inverted="false" direction="input" name="#CLOCK_SYSCLK_P"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#CLOCK_USER"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A0"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A1"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A10"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A11"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A12"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A2"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A3"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A4"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A5"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A6"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A7"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A8"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_A9"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_BA0"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_BA1"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_BA2"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_CAS_B"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_CKE"/>
+        <jc4:pin ioStd="DIFF_SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_CLK_N"/>
+        <jc4:pin ioStd="DIFF_SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_CLK_P"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ0"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ1"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ10"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ11"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ12"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ13"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ14"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ15"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ2"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ3"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ4"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ5"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ6"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ7"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ8"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_DQ9"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_LDM"/>
+        <jc4:pin ioStd="DIFF_SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_LDQS_N"/>
+        <jc4:pin ioStd="DIFF_SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_LDQS_P"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_ODT"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_RAS_B"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_UDM"/>
+        <jc4:pin ioStd="DIFF_SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_UDQS_N"/>
+        <jc4:pin ioStd="DIFF_SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_UDQS_P"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#DDR2_WE_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A0"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A1"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A10"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A11"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A12"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A13"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A14"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A15"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A16"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A17"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A18"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A19"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A2"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A20"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A21"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A22"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A23"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A24"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A3"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A4"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A5"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A6"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A7"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A8"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_A9"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_CE_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_D3"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_D4"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_D5"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_D6"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_D7"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_OE_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FLASH_WE_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_CLK0_M2C_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_CLK0_M2C_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_CLK1_M2C_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_CLK1_M2C_P"/>
+        <jc4:pin termination="none" inverted="false" direction="output" name="#FMC_LA00_CC_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA00_CC_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA01_CC_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA01_CC_P"/>
+        <jc4:pin termination="none" inverted="false" direction="output" name="#FMC_LA02_N"/>
+        <jc4:pin termination="none" inverted="false" direction="output" name="#FMC_LA02_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA03_N"/>
+        <jc4:pin termination="none" inverted="false" direction="output" name="#FMC_LA03_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA04_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA04_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA05_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA05_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA06_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA06_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA07_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA07_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA08_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA08_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA09_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA09_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA10_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA10_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA11_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA11_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA12_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA12_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA13_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA13_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA14_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA14_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA15_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA15_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA16_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA16_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA17_CC_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA17_CC_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA18_CC_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA18_CC_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA19_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA19_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA20_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA20_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA21_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA21_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA22_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA22_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA23_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA23_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA24_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA24_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA25_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA25_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA26_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA26_P"/>
+        <jc4:pin termination="none" inverted="false" direction="inout" name="#FMC_LA27_N"/>
+        <jc4:pin termination="none" inverted="false" direction="inout" name="#FMC_LA27_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA28_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA28_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA29_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA29_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA30_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA30_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA31_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA31_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA32_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA32_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA33_N"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_LA33_P"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_PRSNT_M2C_L"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FMC_PWR_GOOD_RST_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_AWAKE"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_CCLK"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_CMP_CLK"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_CMP_CS_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_CMP_MOSI"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_D0_DIN_MISO_MISO1"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_D1_MISO2"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_D2_MISO3"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_DONE"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_HSWAPEN"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_INIT_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_M0_CMP_MISO"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_M1"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_MOSI_CSI_B_MISO0"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#FPGA_ONCHIP_TERM1"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#FPGA_ONCHIP_TERM2"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_PROG_B"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_SUSPEND"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_TCK_BUF"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_TDI_BUF"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_TDO"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#FPGA_TMS_BUF"/>
+        <jc4:pin ioStd="SSTL18_II" termination="none" inverted="false" direction="input" name="#FPGA_VTEMP"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_BUTTON0"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_BUTTON1"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_BUTTON2"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_BUTTON3"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_CPU_RESET"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR0"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR1"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR2"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR3"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR4"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR5"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR6"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_HDR7"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="output" name="#GPIO_LED_0"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="output" name="#GPIO_LED_1"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="output" name="#GPIO_LED_2"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="output" name="#GPIO_LED_3"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_SWITCH_0"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_SWITCH_1"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_SWITCH_2"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#GPIO_SWITCH_3"/>
+        <jc4:pin ioStd="I2C" termination="none" inverted="false" direction="inout" name="#IIC_SCL_MAIN"/>
+        <jc4:pin ioStd="I2C" termination="none" inverted="false" direction="inout" name="#IIC_SDA_MAIN"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_COL"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_CRS"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_INT"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_MDC"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_MDIO"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RESET"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXCLK"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXCTL_RXDV"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD0"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD1"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD2"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD3"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD4"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD5"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD6"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXD7"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_RXER"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXCLK"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXCTL_TXEN"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXC_GTXCLK"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD0"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD1"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD2"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD3"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD4"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD5"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD6"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXD7"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#PHY_TXER"/>
+        <jc4:pin termination="none" inverted="false" direction="input" name="#SPI_CS_B"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="output" name="#USB_1_CTS"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="output" name="#USB_1_RTS"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="output" name="#USB_1_RX"/>
+        <jc4:pin ioStd="LVCMOS25" termination="none" inverted="false" direction="input" name="#USB_1_TX"/>
+    </jc4:pins>
+    <jc4:attributes/>
+    <jc4:connections>
+        <jc4:portConnection portA="/clk_xilinx.clk_gen" portB="#CLOCK_USER"/>
+        <jc4:portConnection portA="/clk_xilinx.clkfx" portB="/jtag_serial_master.clk"/>
+        <jc4:portConnection portA="/clk_xilinx.clkfx" portB="/spartanmc.clk"/>
+        <jc4:portConnection portA="/clk_xilinx.locked" portB="/spartanmc.locked"/>
+        <jc4:portConnection portA="/clk_xilinx.reset" portB="#GPIO_CPU_RESET"/>
+        <jc4:busConnection portA="/jtag_serial_master@jtag_serial_bus" portB="/spartanmc/jtag_serial_slave@jtag_serial_bus"/>
+        <jc4:portConnection portA="/spartanmc/i2c_master.scl" portB="#FMC_LA27_N"/>
+        <jc4:portConnection portA="/spartanmc/i2c_master.sda" portB="#FMC_LA27_P"/>
+        <jc4:portConnection portA="/spartanmc/intctrl.intr_in" portB="/spartanmc/i2c_master.intr"/>
+        <jc4:portConnection portA="/spartanmc/intctrl.intr_out" portB="/spartanmc.intr"/>
+        <jc4:portConnection portA="/spartanmc/port_out.pin" portB="#FMC_LA00_CC_N"/>
+        <jc4:portConnection portA="/spartanmc/spi_master.clk_spi" portB="/clk_xilinx.clkfx"/>
+        <jc4:portConnection portA="/spartanmc/spi_master.mosi" portB="#FMC_LA02_N"/>
+        <jc4:portConnection portA="/spartanmc/spi_master.sclk" portB="#FMC_LA03_P"/>
+        <jc4:portConnection portA="/spartanmc/spi_master.ss" portB="#FMC_LA02_P"/>
+        <jc4:portConnection portA="/spartanmc/uart_light.rx" portB="#USB_1_TX"/>
+        <jc4:portConnection portA="/spartanmc/uart_light.tx" portB="#USB_1_RX"/>
+        <jc4:busConnection portA="/spartanmc@code_bus_nonstallable" portB="/spartanmc/spartanmc_mem_local@code_bus"/>
+        <jc4:busConnection portA="/spartanmc@mem_bus_nonstallable" portB="/spartanmc/spartanmc_mem_local@data_bus"/>
+        <jc4:busConnection portA="/spartanmc@peri_bus" portB="/spartanmc/i2c_master@peri_bus"/>
+        <jc4:busConnection portA="/spartanmc@peri_bus" portB="/spartanmc/intctrl@peri_bus"/>
+        <jc4:busConnection portA="/spartanmc@peri_bus" portB="/spartanmc/jtag_serial_slave@peri_bus"/>
+        <jc4:busConnection portA="/spartanmc@peri_bus" portB="/spartanmc/port_out@peri_bus"/>
+        <jc4:busConnection portA="/spartanmc@peri_bus" portB="/spartanmc/spi_master@peri_bus"/>
+        <jc4:busConnection portA="/spartanmc@peri_bus" portB="/spartanmc/uart_light@peri_bus"/>
+    </jc4:connections>
+    <jc4:targetConfiguration>
+        <jc4:parameter isDefault="true" name="Device">XC6SLX16-2CSG324</jc4:parameter>
+        <jc4:parameter isDefault="false" name="Target">SP601</jc4:parameter>
+        <jc4:parameter isDefault="true" name="Toolchain">ise</jc4:parameter>
+    </jc4:targetConfiguration>
+    <jc4:toolchainParams>
+        <jc4:parameter isDefault="true" name="BITGEN">-m -l</jc4:parameter>
+        <jc4:parameter isDefault="true" name="DEFINES"></jc4:parameter>
+        <jc4:parameter isDefault="true" name="MAP">-timing -p XC6SLX16-2CSG324 -logic_opt on -pr b -register_duplication -xe n -ol high</jc4:parameter>
+        <jc4:parameter isDefault="true" name="NETGEN">-s 3</jc4:parameter>
+        <jc4:parameter isDefault="true" name="PAR">-ol high -xe n</jc4:parameter>
+        <jc4:parameter isDefault="true" name="PROGRAM"></jc4:parameter>
+        <jc4:parameter isDefault="true" name="SYNTHESIS">-p XC6SLX16-2CSG324 -ifmt mixed -ofmt NGC -opt_mode Speed -opt_level 1 -iuc NO -glob_opt ALLClockNets -rtlview YES -read_cores YES -write_timing_constraints NO -cross_clock_analysis NO -hierarchy_separator / -bus_delimiter [] -case maintain -slice_utilization_ratio 100 -fsm_extract YES -fsm_encoding Auto -fsm_style lut -ram_extract Yes -ram_style Auto -rom_extract Yes -rom_style Auto -shreg_extract YES -resource_sharing YES -mult_style auto -iobuf YES -max_fanout 500 -bufg 8 -register_duplication YES -equivalent_register_removal YES -register_balancing Yes -optimize_primitives No -iob auto -slice_utilization_ratio_maxmargin 5</jc4:parameter>
+        <jc4:parameter isDefault="true" name="TRANSLATE">-nt on -p XC6SLX16-2CSG324</jc4:parameter>
+    </jc4:toolchainParams>
+    <jc4:childModules>
+        <jc4:module name="clk_xilinx">
+            <jc4:params>
+                <jc4:parameter isDefault="true" name="CLKDV_DIVIDE">2.0</jc4:parameter>
+                <jc4:parameter isDefault="true" name="CLKFX_DIVIDE">9</jc4:parameter>
+                <jc4:parameter isDefault="true" name="CLKFX_MULTIPLY">20</jc4:parameter>
+                <jc4:parameter isDefault="true" name="CLKIN_DIVIDE_BY_2">FALSE</jc4:parameter>
+                <jc4:parameter isDefault="true" name="DFS_FREQUENCY_MODE">LOW</jc4:parameter>
+                <jc4:parameter isDefault="true" name="INSTANTIATE_BUFGFX">NO</jc4:parameter>
+                <jc4:parameter isDefault="true" name="INSTANTIATE_BUFGS">NO</jc4:parameter>
+                <jc4:parameter isDefault="true" name="INSTANTIATE_BUFGS2">NO</jc4:parameter>
+                <jc4:parameter isDefault="false" name="RESET_LEVEL">HIGH_ACTIVE</jc4:parameter>
+            </jc4:params>
+            <jc4:connectors>
+                <jc4:portConnector name="/clk_xilinx.clk1"/>
+                <jc4:portConnector name="/clk_xilinx.clk2"/>
+                <jc4:portConnector name="/clk_xilinx.clk270"/>
+                <jc4:portConnector name="/clk_xilinx.clk2x"/>
+                <jc4:portConnector name="/clk_xilinx.clk2x180"/>
+                <jc4:portConnector name="/clk_xilinx.clk_gen"/>
+                <jc4:portConnector name="/clk_xilinx.clkdv"/>
+                <jc4:portConnector name="/clk_xilinx.clkfx"/>
+                <jc4:portConnector name="/clk_xilinx.clkfx180"/>
+                <jc4:portConnector name="/clk_xilinx.locked"/>
+                <jc4:portConnector name="/clk_xilinx.phase"/>
+                <jc4:portConnector name="/clk_xilinx.reset"/>
+            </jc4:connectors>
+            <jc4:attributes/>
+            <jc4:childModules/>
+            <jc4:hardwareModuleDescription moduleDescriptionName="clk_xilinx"/>
+        </jc4:module>
+        <jc4:module name="jtag_serial_master">
+            <jc4:params>
+                <jc4:parameter isDefault="true" name="ADDRESS_PRIORITIZED_DEVICE">0</jc4:parameter>
+                <jc4:parameter isDefault="true" name="BOUNDARY_SCAN_CHAIN">4</jc4:parameter>
+                <jc4:parameter isDefault="true" name="PRIORITIZE_DEVICE">FALSE</jc4:parameter>
+            </jc4:params>
+            <jc4:connectors>
+                <jc4:portConnector name="/jtag_serial_master.clk"/>
+                <jc4:busConnector name="/jtag_serial_master@jtag_serial_bus"/>
+            </jc4:connectors>
+            <jc4:attributes/>
+            <jc4:childModules/>
+            <jc4:hardwareModuleDescription moduleDescriptionName="jtag_serial_master"/>
+        </jc4:module>
+        <jc4:module name="spartanmc">
+            <jc4:params>
+                <jc4:parameter isDefault="true" name="BRKPT_TRAP">1</jc4:parameter>
+                <jc4:parameter isDefault="true" name="CLOCK_GATING">NO</jc4:parameter>
+                <jc4:parameter isDefault="true" name="COUNT_BREAKPOINTS">4</jc4:parameter>
+                <jc4:parameter isDefault="true" name="COUNT_CYCLECOUNTERS">1</jc4:parameter>
+                <jc4:parameter isDefault="true" name="COUNT_EVENTCOUNTERS">2</jc4:parameter>
+                <jc4:parameter isDefault="true" name="COUNT_WATCHPOINTS">4</jc4:parameter>
+                <jc4:parameter isDefault="true" name="FORWARDING_CAN_STALL">0</jc4:parameter>
+                <jc4:parameter isDefault="false" name="HARDWARE_DEBUGGING">1</jc4:parameter>
+                <jc4:parameter isDefault="true" name="HARDWARE_MUL">1</jc4:parameter>
+                <jc4:parameter isDefault="true" name="IGNORE_UNCONNECTED">FALSE</jc4:parameter>
+                <jc4:parameter isDefault="true" name="INTR_VECTOR">0x0</jc4:parameter>
+                <jc4:parameter isDefault="true" name="IO_PREFIX">0x7f</jc4:parameter>
+                <jc4:parameter isDefault="true" name="PERFORMANCE_COUNTER">0</jc4:parameter>
+                <jc4:parameter isDefault="true" name="RESET_VECTOR">0x0</jc4:parameter>
+                <jc4:parameter isDefault="true" name="SHOW_INSTR">1</jc4:parameter>
+                <jc4:parameter isDefault="true" name="SINGLE_SHIFT">0</jc4:parameter>
+                <jc4:parameter isDefault="true" name="SINGLE_STEP_TRAP">3</jc4:parameter>
+                <jc4:parameter isDefault="true" name="STOP_SIM_ON_PERI_S9">1</jc4:parameter>
+                <jc4:parameter isDefault="true" name="STOP_SIM_ON_X">1</jc4:parameter>
+                <jc4:parameter isDefault="true" name="WIDTH_CYCLECOUNTER">36</jc4:parameter>
+                <jc4:parameter isDefault="true" name="WIDTH_EVENTCOUNTER">36</jc4:parameter>
+                <jc4:parameter isDefault="true" name="WTCHPT_TRAP">2</jc4:parameter>
+            </jc4:params>
+            <jc4:connectors>
+                <jc4:portConnector name="/spartanmc.alarm"/>
+                <jc4:portConnector name="/spartanmc.clk"/>
+                <jc4:portConnector name="/spartanmc.evcnt_ext0"/>
+                <jc4:portConnector name="/spartanmc.evcnt_ext1"/>
+                <jc4:portConnector name="/spartanmc.intr"/>
+                <jc4:portConnector name="/spartanmc.intr_enable"/>
+                <jc4:portConnector name="/spartanmc.ir_return"/>
+                <jc4:portConnector name="/spartanmc.locked"/>
+                <jc4:portConnector name="/spartanmc.step"/>
+                <jc4:portConnector name="/spartanmc.step_en_off"/>
+                <jc4:portConnector name="/spartanmc.step_en_on"/>
+                <jc4:busConnector name="/spartanmc@code_bus_nonstallable"/>
+                <jc4:busConnector name="/spartanmc@code_bus_stallable"/>
+                <jc4:busConnector name="/spartanmc@mem_bus_nonstallable"/>
+                <jc4:busConnector name="/spartanmc@mem_bus_stallable"/>
+                <jc4:busConnector name="/spartanmc@peri_bus"/>
+            </jc4:connectors>
+            <jc4:attributes/>
+            <jc4:subsystemConfig vonNeumannLayout="true">
+                <jc4:firmwareConfiguration location="firmware"/>
+            </jc4:subsystemConfig>
+            <jc4:childModules>
+                <jc4:module name="i2c_master">
+                    <jc4:params/>
+                    <jc4:connectors>
+                        <jc4:portConnector name="/spartanmc/i2c_master.intr"/>
+                        <jc4:portConnector name="/spartanmc/i2c_master.scl"/>
+                        <jc4:portConnector name="/spartanmc/i2c_master.sda"/>
+                        <jc4:busConnector name="/spartanmc/i2c_master@peri_bus"/>
+                    </jc4:connectors>
+                    <jc4:addressConfig/>
+                    <jc4:attributes/>
+                    <jc4:childModules/>
+                    <jc4:hardwareModuleDescription moduleDescriptionName="i2c_master"/>
+                </jc4:module>
+                <jc4:module name="intctrl">
+                    <jc4:params>
+                        <jc4:parameter isDefault="false" name="IR_SOURCES">1</jc4:parameter>
+                    </jc4:params>
+                    <jc4:connectors>
+                        <jc4:portConnector name="/spartanmc/intctrl.intr_in"/>
+                        <jc4:portConnector name="/spartanmc/intctrl.intr_out"/>
+                        <jc4:busConnector name="/spartanmc/intctrl@peri_bus"/>
+                    </jc4:connectors>
+                    <jc4:addressConfig/>
+                    <jc4:attributes/>
+                    <jc4:childModules/>
+                    <jc4:hardwareModuleDescription moduleDescriptionName="intctrl"/>
+                </jc4:module>
+                <jc4:module name="jtag_serial_slave">
+                    <jc4:params>
+                        <jc4:parameter isDefault="true" name="INTERRUPT_SUPPORTED">FALSE</jc4:parameter>
+                    </jc4:params>
+                    <jc4:connectors>
+                        <jc4:portConnector name="/spartanmc/jtag_serial_slave.intr"/>
+                        <jc4:busConnector name="/spartanmc/jtag_serial_slave@jtag_serial_bus"/>
+                        <jc4:busConnector name="/spartanmc/jtag_serial_slave@peri_bus"/>
+                    </jc4:connectors>
+                    <jc4:addressConfig/>
+                    <jc4:attributes/>
+                    <jc4:childModules/>
+                    <jc4:hardwareModuleDescription moduleDescriptionName="jtag_serial_slave"/>
+                </jc4:module>
+                <jc4:module name="port_out">
+                    <jc4:params>
+                        <jc4:parameter isDefault="false" name="PORT_WIDTH">1</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="SUPPORT_TRISTATE">1</jc4:parameter>
+                    </jc4:params>
+                    <jc4:connectors>
+                        <jc4:portConnector name="/spartanmc/port_out.pin"/>
+                        <jc4:busConnector name="/spartanmc/port_out@peri_bus"/>
+                    </jc4:connectors>
+                    <jc4:addressConfig/>
+                    <jc4:attributes/>
+                    <jc4:childModules/>
+                    <jc4:hardwareModuleDescription moduleDescriptionName="port_out"/>
+                </jc4:module>
+                <jc4:module name="spartanmc_mem_local">
+                    <jc4:params>
+                        <jc4:parameter isDefault="true" name="RAMBLOCKS">4</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="SHOW_MEM">1</jc4:parameter>
+                    </jc4:params>
+                    <jc4:connectors>
+                        <jc4:busConnector name="/spartanmc/spartanmc_mem_local@code_bus"/>
+                        <jc4:busConnector name="/spartanmc/spartanmc_mem_local@data_bus"/>
+                    </jc4:connectors>
+                    <jc4:addressConfig/>
+                    <jc4:attributes/>
+                    <jc4:childModules/>
+                    <jc4:hardwareModuleDescription moduleDescriptionName="spartanmc_mem_local"/>
+                </jc4:module>
+                <jc4:module name="spi_master">
+                    <jc4:params>
+                        <jc4:parameter isDefault="true" name="SPI_SS">1</jc4:parameter>
+                    </jc4:params>
+                    <jc4:connectors>
+                        <jc4:portConnector name="/spartanmc/spi_master.clk_spi"/>
+                        <jc4:portConnector name="/spartanmc/spi_master.intr"/>
+                        <jc4:portConnector name="/spartanmc/spi_master.miso"/>
+                        <jc4:portConnector name="/spartanmc/spi_master.mosi"/>
+                        <jc4:portConnector name="/spartanmc/spi_master.sclk"/>
+                        <jc4:portConnector name="/spartanmc/spi_master.ss"/>
+                        <jc4:busConnector name="/spartanmc/spi_master@peri_bus"/>
+                    </jc4:connectors>
+                    <jc4:addressConfig/>
+                    <jc4:attributes/>
+                    <jc4:childModules/>
+                    <jc4:hardwareModuleDescription moduleDescriptionName="spi_master"/>
+                </jc4:module>
+                <jc4:module name="uart_light">
+                    <jc4:params>
+                        <jc4:parameter isDefault="true" name="BAUDRATE">115200</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="ENABLE_TX_CHAIN">FALSE</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="FIFO_RX_DEPTH">8</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="FIFO_TX_DEPTH">8</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="INTERRUPT_SUPPORTED">FALSE</jc4:parameter>
+                        <jc4:parameter isDefault="false" name="LOGFILE">spartanmc.txt</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="LOG_TO_FILE">1</jc4:parameter>
+                        <jc4:parameter isDefault="true" name="PRINT_TX">1</jc4:parameter>
+                    </jc4:params>
+                    <jc4:connectors>
+                        <jc4:portConnector name="/spartanmc/uart_light.intr"/>
+                        <jc4:portConnector name="/spartanmc/uart_light.rx"/>
+                        <jc4:portConnector name="/spartanmc/uart_light.tx"/>
+                        <jc4:portConnector name="/spartanmc/uart_light.tx_chain_i"/>
+                        <jc4:busConnector name="/spartanmc/uart_light@peri_bus"/>
+                    </jc4:connectors>
+                    <jc4:addressConfig/>
+                    <jc4:attributes/>
+                    <jc4:childModules/>
+                    <jc4:hardwareModuleDescription moduleDescriptionName="uart_light"/>
+                </jc4:module>
+            </jc4:childModules>
+            <jc4:hardwareModuleDescription moduleDescriptionName="spartanmc"/>
+        </jc4:module>
+    </jc4:childModules>
+</jc4:configuration>
